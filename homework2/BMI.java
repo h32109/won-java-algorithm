@@ -26,9 +26,9 @@ public class BMI {
 		System.out.println("이름을 입력해주세요.");
 		String name = scanner.next();
 		System.out.println("몸무게를 입력해 주세요.");
-		double weight = scanner.nextInt();
+		double weight = scanner.nextDouble();
 		System.out.println("키를 입력해 주세요.");
-		double height = scanner.nextInt();
+		double height = scanner.nextDouble();
 		double bmi = weight / ((height*0.01)*(height*0.01));
 		String result = "";
 		if(bmi>30.0) {
